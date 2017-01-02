@@ -1,0 +1,56 @@
+Developing Data Products Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Isac Artzi
+date: Jan 2, 2017
+
+Overview
+========================================================
+
+This was built for the course Developing Data Products as part of the Coursera Data Science Specialization.
+
+The shiny app  is avalilable at: https://iartzi.shinyapps.io/Coursera-9/
+
+The source codes of ui.R and server.R are available at: https://github.com/iartzi/Course9Project/projects
+
+Angle Between Two Vectors
+========================================================
+
+The angle between two vectors __(alpha)__ is calculated as follows:  
+
+The angle is given by __cos()__ of the dot product of the two (normalized) vectors:  
+  
+v1 • v2 = |v1| |v2| cos(alpha) 
+
+Where:  
+
+- v1 = a vector in 2D with coordinates {x1,y1} 
+- v2 = a vector in 2D with coordinates {x2,y2}  
+
+
+Alpha Calculation Result
+========================================================
+
+__Example:__  
+
+If  __v1 = {2,3}__ and __v2 = {5,4}__: 
+
+- c_alpha = cos(alpha) =  v1 • v2 /(|v1| |v2|)
+- alpha = acos(c_alpha)
+
+ 
+Shiny App: Interactive Angle Calculator
+========================================================
+
+* Sidebar panel  
+
+ - numericInput: Value of x1   
+ - numericInput: Value of y1  
+ - numericInput: Value of x2   
+ - numericInput: Value of y2   
+
+* Main panel   
+
+ - The formula for calculating the angle between two vectors
+ - Server-side angle calculation
+ - Display the value of alpha
+ 
