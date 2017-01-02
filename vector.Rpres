@@ -10,7 +10,7 @@ This was built for the course Developing Data Products as part of the Coursera D
 
 The shiny app  is avalilable at: https://iartzi.shinyapps.io/Coursera-9/
 
-The source codes of ui.R and server.R are available at: https://github.com/iartzi/Course9Project/projects
+The source codes of ui.R and server.R are available at: https://github.com/iartzi/ShinyRep
 
 Angle Between Two Vectors
 ========================================================
